@@ -7,7 +7,7 @@ class App extends Component {
     super();
 
     this.state = {
-      food: ["spaghetti", "ice cream", "sushi"]
+      food: ["pizza", "hamburgers", "canelones"]
     }
   }
 
