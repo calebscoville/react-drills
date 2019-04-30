@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Login extends Copmponent {
+class Login extends Component {
     constructor() {
         super();
 
@@ -26,11 +26,12 @@ class Login extends Copmponent {
     render() {
         return (
             <div>
-                <input onChange={e => this.handleLogin.handleUsernameChange(e.target.value)}
+                <input 
+                onChange={e => this.handleUsernameChange(e.target.value)}
                 type="text"
                 />
-                <input onChange={e => this.handleLogin.handlePasswordChange(e.target.value)}
-                type="text"}
+                <input onChange={e => this.handlePasswordChange(e.target.value)}
+                type="text"
                 />
                 <button onClick={this.handleLogin}>Login</button>
             </div>
