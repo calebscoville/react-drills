@@ -39,9 +39,8 @@ class App extends Component {
         <input
           value={this.state.input}
           placeholder="Enter new task"
-          onChange={e => this.handleInputChange(e.target.value)}
-          />
-          
+          onChange={e => this.handleInputChange(e.target.value)} /></input>
+
           <button onClick={this.handleAddTask}>Add</button>
           </div>
 
